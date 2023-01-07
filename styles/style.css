@@ -146,7 +146,7 @@ section{
 
 .call-now-banner-contents{
     background-image: url(../images/gradient2.png), url(../images/watch.png);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .call-now-banner-items{
@@ -169,4 +169,114 @@ section{
     border-radius: 10px;
     margin: 24px 0 0 0;
 }
+
+.call-now-button a{
+    text-decoration: none;
+    color: #F15B22;
+}
+
+/* footer section styles */
+
+.footer{
+    background-color: #151414;
+}
+
+.footer .footer-contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.footer-left-contents{
+    max-width: 500px;
+}
+
+.footer-left-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.footer-left-description{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 16px 0 0 0;
+}
+
+.footer-left-email{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 24px 0 16px 0;
+}
+
+
+.footer-left-email a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-left-phone{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-left-phone a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+
+.footer-left-contents img{
+    margin: 32px 17px 0 0;
+}
+
+
+.footer-right-contents{
+
+}
+
+.footer-right-heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.footer-right-contents form .email-input{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #151414;
+    padding: 22px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+.footer-right-contents form .subscribe-button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    background-color: #fff;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+
 
