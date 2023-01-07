@@ -137,3 +137,36 @@ section{
     color: #737272;
 }
 
+
+/* call now banner styles */
+
+.call-now-banner{
+    margin: 125px 0 130px 0;
+}
+
+.call-now-banner-contents{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    border-radius: 20px;
+}
+
+.call-now-banner-items{
+    padding: 60px 65px;
+}
+
+.call-now-banner-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.call-now-button{
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 10px;
+    margin: 24px 0 0 0;
+}
+
