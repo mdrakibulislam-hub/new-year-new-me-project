@@ -2,3 +2,104 @@
     margin: 0 auto;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+
+section{
+    max-width: 1140px;
+}
+
+.btn-primary{
+    height: 64px;
+    border:none;
+    padding: 20px 26px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F15B22;
+    border-radius: 10px;
+}
+
+.btn-primary a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Banner Styles */
+
+.header .banner{
+    background-image: url(../images/banner/banner2.png);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .banner .banner-contents{
+    text-align: right;
+    width: 600px;
+    padding: 215px 230px;
+    margin-right: 0px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #151414;
+}
+
+.banner-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin: 30px 0 30px 0;
+    line-height: 26px;
+}
+
+
+/* my failures section styles
+*/
+.my-failures-content{
+    margin: 130px 0 130px 0;
+}
+
+.my-failures-section{
+    display: flex;
+    align-items: center ;
+}
+
+.my-failures-texts{
+    margin: 0 0 0 60px;
+}
+
+.my-failures-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.my-failures-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    margin: 24px 0 16px 0;
+    line-height: 26px;
+}
+
+.my-failures-list{
+    list-style: none;
+}
+
+.my-failures-list li::before{
+    content: '✓ ';
+    color: #16D887;
+}
+
+.my-failures-list li{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+    padding: 8px 0;
+}
+
+/* my plans styles */
+
